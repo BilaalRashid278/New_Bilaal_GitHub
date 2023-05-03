@@ -1,0 +1,20 @@
+1: git init // initialized the project
+2: git status // check files in git
+3: git log // check changes in git 
+4: git add --a // push code in staging area
+5: git commit -m "you will add comments in changing file"
+6: you will create ".gitignore" file to ignore file you do not commit 
+7: git diff // Agar apne file me koi changes kiya han or ap modified state pr han to ap git diff likh kar pata laga sakte han ka apne kya code change kiya hai
+8: git diff --staged // ye apki working directory ko last commited file se compare karta hai 
+9: Not going to staging area direct commit write: This command ("git commit -a -m "your message" ");
+10: To be staged file restored unstaged write: This command ("git restore --staged");
+11: Restore The code last commit Run ("git checkout -f") to restore last time code
+And second command is ("git restore");
+12: git rm --cached   filename
+13: git config --list
+14: git remote add origin  repo-url // this is reposatory access
+15 git push origin branchName
+16: git checkout -b : create new branch
+17: Checkout branches : Use  git branch
+18: git pull origin branchName
+19 Change branch to branch : git checkout branchName
